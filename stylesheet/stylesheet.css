@@ -1,0 +1,196 @@
+/* Untuk semua */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .top-wrapper img{
+    width: 500px;
+    height: 500px;
+    margin-top: 48px;
+    margin-right: 100px;
+    float: left;
+   
+  }
+  .top-wrapper h1{
+    padding-top: 180px;
+  }
+  
+  .learnmore {
+    margin-top: 10px;
+    background-color: #FD5E53;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  
+  .article-wrapper {
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .article {
+    float: left;
+    width: 33.3%;
+    
+  
+  }
+
+  .article h6{
+    margin: 0;
+    padding: 0;
+  }
+
+  .article p{
+    margin-right: 10px;
+    margin-top: 0;
+  }
+  
+  .article-image {
+    position: relative;
+    
+    
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 17px;
+
+  }
+  .text-contents a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .text-contents a:hover{
+    color: #FD5E53;
+  }
+  
+
+  .topics {
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    padding: 8px 7px;
+    border-radius: 15px;
+    color: white;
+    background-color: #fd5e53;
+    font-size: 12px;
+}
+.topics:hover {
+    background-color: #ffffff;
+    color: #fd5e53;
+    border: 2px solid #fd5e53;
+}
+
+  /* data wrapper */
+  .heading-data h1{
+    margin-bottom: 0px;
+  }
+
+  .vl{
+    border-left: 4px solid black;
+    height: 200px;
+    margin-bottom: 50px;
+    float: left;
+    width: 50%;
+  }
+  .vl h1{
+    padding-left: 30px;
+    font-size: 64px;
+    
+  }
+  .vl p{
+    padding-left: 30px;
+    font-size: 36px;
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .learnmore {
+      margin-top: 20px;
+      margin-left: 20px;
+      text-align: center;
+      
+    }
+    .vl{
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .article{
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .article-image {
+      position: relative;
+      margin-top: 20px;
+      
+    }
+    .heading{
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .top-wrapper img{
+      width: 380px;
+      height: 380px;
+      margin-top: 48px;
+      
+     
+    }
+    
+  }
+  @media screen and (min-width:601px) and (max-width:1200px) {
+    .learnmore {
+      margin-top: 20px;
+      margin-left: 100px;
+      text-align: center;
+  
+    }
+    .article{
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .article-image {
+      position: relative;
+      margin-top: 20px;
+      
+    }
+    .heading{
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+  }
+

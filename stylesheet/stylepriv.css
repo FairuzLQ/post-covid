@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+
+.clear {
+    clear: left;
+  }
+
+.all-content{
+  margin-top: 100px;
+  padding-left: 190px;
+  padding-right: 190px;
+  color: inherit;
+}
+
+

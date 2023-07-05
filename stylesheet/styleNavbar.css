@@ -1,0 +1,28 @@
+* {
+    font-family: "Lucida Grande";
+}
+
+
+.navbar .nav-item {
+    padding: 10px 20px;
+    
+}
+.navbar .nav-item a{
+    text-decoration: none !important;
+    color: white;
+}
+
+.navbar .nav-item a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar .nav-link {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.fa-bars {
+    color: white;
+    font-size: 30px;
+}
+.navbar{
+    background-color: #FD5E53 !important;
+}
